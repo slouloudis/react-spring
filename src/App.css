@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -46,3 +46,10 @@
   height: 200px;
   width: 200px;
 }
+
+.world {
+  font-size: 36px;
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+} */
