@@ -6,30 +6,44 @@
 
 .text {
   pointer-events: none;
-  justify-content: start !important;
   font-family: 'Kanit', sans-serif;
   line-height: 0px;
   text-transform: uppercase;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.sticky {
+  pointer-events: none;
+  font-family: 'Kanit', sans-serif;
+  line-height: 0px;
+  text-transform: uppercase;
+  display: flex;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
 }
 
 .number {
-  font-size: 300px;
-  color: #545864;
+  font-size: 7rem;
+  color: #ffffff;
+  z-index: 2;
 }
 
 .number span {
   display: inline-block;
   position: relative;
+  margin-left: 95rem;
 }
 
 .slopeBegin {
   background-color: #000000;
-  clip-path: polygon(20% 0, 70% 0, 50% 100%, 0% 100%);
+  clip-path: polygon(190% 20%, 70% 100, 150% 100%, 0% 100%);
 }
 
-.slopeEnd {
+/* .slopeEnd {
   clip-path: polygon(70% 0, 100% 0, 80% 100%, 50% 100%);
-}
+} */
 
 .slopeBegin,
 .slopeEnd {
